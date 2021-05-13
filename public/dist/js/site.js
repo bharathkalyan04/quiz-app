@@ -50,7 +50,7 @@ function next() {
   if (question_count == questions.length - 1) {
     sessionStorage.setItem("time", time);
     clearInterval(mytime);
-    location.href = "end.html";
+    location.href = "/end";
   }
   console.log(question_count);
 
